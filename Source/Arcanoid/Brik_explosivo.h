@@ -13,5 +13,8 @@ UCLASS()
 class ARCANOID_API ABrik_explosivo : public ABrik
 {
 	GENERATED_BODY()
+
+protected:
+	virtual void BeginPlay() override;
 	
 };

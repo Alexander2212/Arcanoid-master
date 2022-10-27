@@ -3,3 +3,8 @@
 
 #include "Brik_explosivo.h"
 
+void ABrik_explosivo::BeginPlay()
+{
+	Super::BeginPlay();
+	SetLifeSpan(10);
+}
