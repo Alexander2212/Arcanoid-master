@@ -6,7 +6,6 @@
 #include "Components/ActorComponent.h"
 #include "movimiento_1.generated.h"
 
-
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ARCANOID_API Umovimiento_1 : public UActorComponent
 {
@@ -15,6 +14,8 @@ class ARCANOID_API Umovimiento_1 : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	Umovimiento_1();
+	UPROPERTY()
+		float MovementRadius;
 
 protected:
 	// Called when the game starts
